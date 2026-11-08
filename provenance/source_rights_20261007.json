@@ -1,0 +1,70 @@
+{
+  "status": "DRAFT_no_license_granted_or_publicrelease",
+  "new_adapter_files": [
+    {
+      "file": "bootstrap_assets.py",
+      "sha256": "ecc4a2fd55f8ff5fa692eb26b92f358f6848651892385ec382e0ebd0182ca126",
+      "bytes": 1096
+    },
+    {
+      "file": "cli.py",
+      "sha256": "4465d2d1131b7bb6265631490d0d44cddf15a987f89b7bb93cc7df700a4db2a5",
+      "bytes": 2017
+    },
+    {
+      "file": "src/__init__.py",
+      "sha256": "b9fc623abcd6304d6b21bb610e41c47bc8ba04c8e3a7dd2316c9c918b699c333",
+      "bytes": 66
+    },
+    {
+      "file": "src/augmentation_protocol.py",
+      "sha256": "8e3e5c5f64a9254487e024f2bb9316ebaebe20fd319ddcd496e764b62b66ec5f",
+      "bytes": 900
+    },
+    {
+      "file": "src/reproduce.py",
+      "sha256": "69c3808b2563aa20e8f62386c9f1a09358b95ccd0df804f98014d7a3aa543095",
+      "bytes": 9169
+    },
+    {
+      "file": "src/source_guard.py",
+      "sha256": "a5edb808c183d15c38042a38cbaab5975907fb0704315ed9bc4e6f26c56558f6",
+      "bytes": 583
+    },
+    {
+      "file": "src/tool.py",
+      "sha256": "c6d4d6bf8260287a1333587e0dc75b7a91034121594e58731f5113cb83a87395",
+      "bytes": 2908
+    },
+    {
+      "file": "tests/test_mock.py",
+      "sha256": "297b403e431c3cbc70ee712079c0c4e949f9aa66c63881ed1f72454de4a0f143",
+      "bytes": 5923
+    }
+  ],
+  "copied_helpers": {
+    "src/canonical_extractor.py": {
+      "sha256": "1a4c096f4b51ee0b9e60b50dcab06669a67ad0b5694340d5d1beee5fc0c53ee7",
+      "bytes": 4892
+    },
+    "src/task_aware_fusion.py": {
+      "sha256": "afaaf4c7d802fe6243e1e15a0c56c911812754b5a405c1824cae6662ca4c30a9",
+      "bytes": 20151
+    },
+    "src/inference.py": {
+      "sha256": "02eb08a6f35a01b9b17591cb05142f7cb3199195ba5e0fa48f48e4af8da175e9",
+      "bytes": 7217
+    }
+  },
+  "copied_helper_ownership_license": "not independently supplied;ownerreviewrequired",
+  "model_tokenizer": "microsoft/codebert-base exactprovidedassets;verifyexactupstreamterms,do not infer license fromcheckpointSHA",
+  "model_reference": "https://huggingface.co/microsoft/codebert-base",
+  "model_paper": "https://aclanthology.org/2020.findings-emnlp.139/",
+  "task_reference": "https://nlbse2027.github.io/tools/",
+  "distillation_related_work": "https://arxiv.org/abs/1503.02531",
+  "historical_sources_authoronly": "author_evidence/provenance/legacy_sources,not portable runtime dependencies",
+  "fixtures": "existing32label-freeTRAINFunctions and32savedpredictionrows;author-reviewonly,redistributiontermsunverified",
+  "owned_code_license_options": "MIT orApache2.0afterauthorownershipreview;neitheradopted",
+  "no_thirdpartylicense_overwrite": true,
+  "no_credentials_or_real_publicURLs": true
+}

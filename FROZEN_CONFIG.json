@@ -1,0 +1,45 @@
+{
+  "candidate": "PKP2-seed13",
+  "checkpoint_sha256": "3a902b6b82b48efcd718fabe120ebc1650510c1b4e1efd45625ca3c60cf2b1c4",
+  "layers": [
+    0,
+    11
+  ],
+  "parameters": 53771526,
+  "epochs": 4,
+  "updates": 8048,
+  "train_rows": 193124,
+  "internal_validation_rows": 21462,
+  "positive_weights": [
+    2.151758909225464,
+    59.65452194213867
+  ],
+  "warmup_steps": 482,
+  "temperature": 2,
+  "BCE_coefficient": 0.5,
+  "KD_coefficient": 0.5,
+  "max_length": 512,
+  "comment_reservation": 96,
+  "batch": 12,
+  "accum": 8,
+  "last_window_samples": 68,
+  "seed": 13,
+  "inference_batch": 600,
+  "inference_precision": "FP16 CUDA / FP32 logits sigmoid",
+  "thresholds_float32": [
+    0.5899999737739563,
+    0.9700000286102295
+  ],
+  "comparator": ">=",
+  "threshold_source": "historical public-full-fit selection;defaultfixed,no inference fitting",
+  "original_checkpoint_primary": "fixed epoch4,no bestepoch selection",
+  "teacher_internal_selection": "Pair42 historical best internal checkpoint,TRAIN-only distillation targets",
+  "not_grouped_A13_or_seed2027": true,
+  "fresh_reproduction_hash_identical_guarantee": false,
+  "schedule_hashes": [
+    "e0e948723cfff629f27b2b90d4353f321150f1de31c349bd6eaa9b25ce3afe07",
+    "75d18c1f0ff9648ed8fc8e9b5d64efb94db48088a97a255450677d70ebea11f1",
+    "54f96d9ddf5b38f901ec67105bf7dad54dbf5d91303de41f33179a25c69ea04f",
+    "4f7ae213b37e59626873a3e4e17d2c5ec49b2c27ea3c6fcf7cb50b215f78a6f1"
+  ]
+}

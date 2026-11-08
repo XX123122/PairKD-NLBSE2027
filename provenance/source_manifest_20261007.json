@@ -1,0 +1,175 @@
+{
+  "status": "frozen_reviewcandidate_only",
+  "candidate_checkpoint_sha256": "3a902b6b82b48efcd718fabe120ebc1650510c1b4e1efd45625ca3c60cf2b1c4",
+  "files": {
+    "FROZEN_CONFIG.json": {
+      "sha256": "6910cd1e54703324d75bf04e98619accac5e0c799305dbc4794ef02d4e6e7249",
+      "bytes": 1442
+    },
+    "LICENSE_DRAFT.md": {
+      "sha256": "0a1c59cc17a0fb5df0a3e50a37d768c2347a6205e4b63d75b92ecd09dd9eb092",
+      "bytes": 1037
+    },
+    "LINEAGE_SUMMARY.json": {
+      "sha256": "1183c4a0994a937c9f75f4e9234f40bd69bbe12eff10181d48b55cee680c9fda",
+      "bytes": 1326
+    },
+    "MODEL_ASSET_INDEX.json": {
+      "sha256": "2fbf45224c504329d865488dfc214e75bc92eb9dd36ad0b9e3744da008ba4fc3",
+      "bytes": 1834
+    },
+    "MODEL_CARD.md": {
+      "sha256": "6039abcace06b231febccddcc3f9b38f6d2486f802f8897caed8304e62e17f29",
+      "bytes": 2005
+    },
+    "NOTICE.md": {
+      "sha256": "1dacbb81bcb0388c07f3ce354bd0ec8af15204f8c477e29d72c49572fea437e6",
+      "bytes": 1658
+    },
+    "ORGANIZER_CLARIFICATION_DRAFT.md": {
+      "sha256": "0e469fad472aa7bf298efc5baabc8946d8d58f80ea8a9640282578c4d233c8b9",
+      "bytes": 803
+    },
+    "README.md": {
+      "sha256": "03981c0c3c6e7962dbd80bd6ca5719b83de71dc44a3467a38741bf39138bcb7d",
+      "bytes": 10070
+    },
+    "REFERENCE_PROTOCOL.json": {
+      "sha256": "1bcc1d29e30771bdc8583b258f705998b90dce54c35e99616b7179b014f06203",
+      "bytes": 1590
+    },
+    "REMAINING_ACCEPTANCE_PLAN.md": {
+      "sha256": "c41d7eed95a91e8d944acc076122ad0866933c6da50ee622f3507b018961a946",
+      "bytes": 2297
+    },
+    "SOURCE_RIGHTS.json": {
+      "sha256": "3d21542468eed17b76d1261cdb4835588916fde38488570dda8ee45c98ec08ae",
+      "bytes": 2656
+    },
+    "TESTED_ENVIRONMENTS_PORTABLE.json": {
+      "sha256": "7b1bc4a31b6ccab7cf922c618994b18ad60d73da5dbb10e5c8009021932e333e",
+      "bytes": 1399
+    },
+    "TOKENIZER_ASSETS.json": {
+      "sha256": "63c5eaa3f8b808973ece1c574a99dd73527a8c987bec6c6941e01b9cf808c2b7",
+      "bytes": 775
+    },
+    "assets/tokenizer/config.json": {
+      "sha256": "bd984c6d2d16a19b1318c872b41bb8d047c649e0361de9a426bc217a04619140",
+      "bytes": 716
+    },
+    "assets/tokenizer/merges.txt": {
+      "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+      "bytes": 456318
+    },
+    "assets/tokenizer/special_tokens_map.json": {
+      "sha256": "f23c8e6099631c233c16d9bf8dab198f610826cdd1b358f270f6d55c1863e857",
+      "bytes": 958
+    },
+    "assets/tokenizer/tokenizer.json": {
+      "sha256": "727009a8214ddfa5af1deedf1006d4d06e8e51e54aa5f03566263d4e19bfcdce",
+      "bytes": 3558643
+    },
+    "assets/tokenizer/tokenizer_config.json": {
+      "sha256": "4ea8648e4067230942ac6b32dd61328675bc99ae0a9f4cc665c30a95f0f68712",
+      "bytes": 1246
+    },
+    "assets/tokenizer/vocab.json": {
+      "sha256": "ed19656ea1707df69134c4af35c8ceda2cc9860bf2c3495026153a133670ab5e",
+      "bytes": 798293
+    },
+    "bootstrap_assets.py": {
+      "sha256": "ecc4a2fd55f8ff5fa692eb26b92f358f6848651892385ec382e0ebd0182ca126",
+      "bytes": 1096
+    },
+    "candidate_manifest.json": {
+      "sha256": "a529f3cb345646e63da2a05e359370b5bf5029544d96526b81161ddbf7d5c8e9",
+      "bytes": 2136
+    },
+    "cli.py": {
+      "sha256": "4465d2d1131b7bb6265631490d0d44cddf15a987f89b7bb93cc7df700a4db2a5",
+      "bytes": 2017
+    },
+    "examples/cache_job.json": {
+      "sha256": "de0508a01fcf08dba5937299be69b2cad2c96aa0612b4fad8c2e37a2f35f214d",
+      "bytes": 1456
+    },
+    "examples/train_job.json": {
+      "sha256": "f92be6b8733c90f477ca27d3a11ffb3131e2d0a6621f20b0ed3cf876d22ee8b7",
+      "bytes": 2032
+    },
+    "examples/tune_job.json": {
+      "sha256": "37d77e1d17579ef4ed6b32f3845e1b6cdd78477d2795a6a02c8aa80478358c40",
+      "bytes": 658
+    },
+    "requirements-inference.txt": {
+      "sha256": "f4d2de599c993ae116ee44ae4396f99711d3fdde8434183d9ee08d3015e410af",
+      "bytes": 206
+    },
+    "requirements-training.txt": {
+      "sha256": "56f6296e1c3d7f58121b117733b650be67ed2af8d5024b1a4aedf8397c5c65e0",
+      "bytes": 245
+    },
+    "src/__init__.py": {
+      "sha256": "b9fc623abcd6304d6b21bb610e41c47bc8ba04c8e3a7dd2316c9c918b699c333",
+      "bytes": 66
+    },
+    "src/augmentation_protocol.py": {
+      "sha256": "8e3e5c5f64a9254487e024f2bb9316ebaebe20fd319ddcd496e764b62b66ec5f",
+      "bytes": 900
+    },
+    "src/canonical_extractor.py": {
+      "sha256": "1a4c096f4b51ee0b9e60b50dcab06669a67ad0b5694340d5d1beee5fc0c53ee7",
+      "bytes": 4892
+    },
+    "src/inference.py": {
+      "sha256": "02eb08a6f35a01b9b17591cb05142f7cb3199195ba5e0fa48f48e4af8da175e9",
+      "bytes": 7217
+    },
+    "src/reproduce.py": {
+      "sha256": "69c3808b2563aa20e8f62386c9f1a09358b95ccd0df804f98014d7a3aa543095",
+      "bytes": 9169
+    },
+    "src/source_guard.py": {
+      "sha256": "a5edb808c183d15c38042a38cbaab5975907fb0704315ed9bc4e6f26c56558f6",
+      "bytes": 583
+    },
+    "src/task_aware_fusion.py": {
+      "sha256": "afaaf4c7d802fe6243e1e15a0c56c911812754b5a405c1824cae6662ca4c30a9",
+      "bytes": 20151
+    },
+    "src/tool.py": {
+      "sha256": "c6d4d6bf8260287a1333587e0dc75b7a91034121594e58731f5113cb83a87395",
+      "bytes": 2908
+    },
+    "tests/SAVED_POLICY_FIXTURE.npz": {
+      "sha256": "e2bc1e56262b0b33647312b748694abfc8c3f3f39c65bcc87d04fb5b2ea88d55",
+      "bytes": 977
+    },
+    "tests/fixture32.jsonl": {
+      "sha256": "872713ca1413eb0851750a2819c35a310b3102a92e3e71a652dc6fbd86428599",
+      "bytes": 69864
+    },
+    "tests/test_mock.py": {
+      "sha256": "297b403e431c3cbc70ee712079c0c4e949f9aa66c63881ed1f72454de4a0f143",
+      "bytes": 5923
+    }
+  },
+  "source_selfexcluded_avoidscircularhash": true,
+  "public_release_or_official_acceptance": false,
+  "canonical_byteidentity": {
+    "src/canonical_extractor.py": {
+      "sha256": "1a4c096f4b51ee0b9e60b50dcab06669a67ad0b5694340d5d1beee5fc0c53ee7",
+      "bytes": 4892
+    },
+    "src/task_aware_fusion.py": {
+      "sha256": "afaaf4c7d802fe6243e1e15a0c56c911812754b5a405c1824cae6662ca4c30a9",
+      "bytes": 20151
+    },
+    "src/inference.py": {
+      "sha256": "02eb08a6f35a01b9b17591cb05142f7cb3199195ba5e0fa48f48e4af8da175e9",
+      "bytes": 7217
+    }
+  },
+  "runtime_sha_guard_before_modelconstruction": true
+}

@@ -1,0 +1,17 @@
+{
+  "source_candidate_manifest_sha256": "37c54298baab7827b45efb0d1a6b7f50922b5f3ec28d4d2d9eb52bfca186a897",
+  "selected_zip_sha256": "7e668e63951709c22d7f7536d294a0586bee446e1117f7f685b9e7e828a8a7fb",
+  "selected_checkpoint_sha256": "3a902b6b82b48efcd718fabe120ebc1650510c1b4e1efd45625ca3c60cf2b1c4",
+  "named_paper_sha256": "38c0e0dc2490f90a431052893d96620401627dbe2b462f22f1d6b5846da30560",
+  "archived_results": {
+    "T4_20261007_ALL20.csv": "21253fa9c3753ebea6b7267bb44157d93fc5bedea7d1ecf339ff0b49c2be94de",
+    "T4_20261008_ALL3.csv": "8c7d48060529a467a3bdec421dbb45d8f9d49cda0d51eb32e0209cc45a090b3e",
+    "T4_PLOT_HARDWARE_AUDIT.csv": {
+      "source_sha256": "bc3f57e0b0f2e9b6f5dea5bde0fd0533f84fe45f2a69949afc14609d8348e316",
+      "repository_sha256": "6c0e779a68a83157e8bcb5a115ac418078103ce10c997406569ab50138141c2d",
+      "transformation": "Replace author-local workspace paths by author_archive/; numeric/device/checkpoint fields unchanged"
+    },
+    "THRESHOLD_POLICY_COMPARISON.csv": "38070a96890d8fb13779d93ec726fca4d1f83d90eb1fa995a39e76f54f54587f"
+  },
+  "no_original_source_or_model_overwritten": true
+}

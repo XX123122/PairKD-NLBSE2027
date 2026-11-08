@@ -1,0 +1,2 @@
+{"index": 7, "Function": "int add(int a, int b) { return a + b; }"}
+{"index": 7, "Function": "/* TODO: handle failures */ int f(void) { return 0; }"}

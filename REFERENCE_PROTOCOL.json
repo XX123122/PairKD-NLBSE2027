@@ -1,0 +1,45 @@
+{
+  "adopted_executable_snapshot": "linked_reference_current.ipynb",
+  "sha256": "dab6f6d34d87a9dc60086ca8994225e4c5798076aa6bce2e1460715f1192a732",
+  "snapshots": [
+    {
+      "file": "competition_current.ipynb",
+      "source_url": "https://colab.research.google.com/drive/1b_EiXx5woyCrDntwbljfi-BwS9Dwvhoa",
+      "sha256": "efa58f3440c3f236bfd137a49634dde0c4f53672f67d5b777603447816dcd4be",
+      "bytes": 10109,
+      "cells": 6,
+      "executed": false
+    },
+    {
+      "file": "baseline_current.ipynb",
+      "source_url": "https://raw.githubusercontent.com/nlbse2027/code-comment-classification/main/CodeBERT_baseline.ipynb",
+      "sha256": "a3dcb3df37cc5ecf0a0e616fa9795364a77ccc16a60a6cea3a7c82c0698954ea",
+      "bytes": 47165,
+      "cells": 5,
+      "executed": false
+    },
+    {
+      "file": "linked_reference_current.ipynb",
+      "source_url": "https://colab.research.google.com/drive/1q1fGPpU7uxaK1mUVHa3b2xJOtEwhWwLG",
+      "sha256": "dab6f6d34d87a9dc60086ca8994225e4c5798076aa6bce2e1460715f1192a732",
+      "bytes": 35338,
+      "cells": 5,
+      "executed": false
+    }
+  ],
+  "formula": ".6MeanF1+.2max(1-runtime/1000,0)+.2max(1-GFLOPs/3000000,0)",
+  "timedforward_perbatch": 2,
+  "divide_by": 2,
+  "task_columns": [
+    "Weakness",
+    "MAT"
+  ],
+  "competition_prose_discrepancies": [
+    "10timings vs executable2",
+    "legacy19category/singlelabeltext",
+    "linkedcode-commnet modelrepository typo"
+  ],
+  "adopted_actual_savedT4_score": 0.9076665714266594,
+  "organizer_compatibility_unconfirmed": true,
+  "no_notebookexecuted_ororganizercontact": true
+}

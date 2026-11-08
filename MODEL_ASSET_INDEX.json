@@ -1,0 +1,18 @@
+{
+  "selected_candidate": "PKP2-seed13 epoch4",
+  "checkpoint_sha256": "3a902b6b82b48efcd718fabe120ebc1650510c1b4e1efd45625ca3c60cf2b1c4",
+  "inference_zip": {
+    "filename": "PairKD-PKP2-seed13-epoch4-v0.1.0.zip",
+    "sha256": "42e2a11e47fce3c1a1dc6c2594840a4e02f5a25fd3f0e332ab73dc5be03a359d",
+    "bytes": 198946202,
+    "public_url": null,
+    "private_release_url": "https://github.com/XX123122/PairKD-NLBSE2027/releases/download/v0.1.0-private/PairKD-PKP2-seed13-epoch4-v0.1.0.zip"
+  },
+  "repository_url": "https://github.com/XX123122/PairKD-NLBSE2027",
+  "repository_visibility": "private",
+  "published": false,
+  "externally_hosted": true,
+  "teacher_or_experimental_model_in_inference": false,
+  "external_assets_not_in_git": true,
+  "publicly_accessible": false
+}

@@ -1,0 +1,22 @@
+{
+  "candidate": "PKP2-seed13",
+  "scope": "explicit saved tuning probabilities",
+  "artifact_root": "./my_artifacts",
+  "model_root": "./my_models",
+  "data_root": "./my_data",
+  "output_subdir": "NEW_THRESHOLDS",
+  "selection_disclosure": "only hypothetical futureauthorselecteddata,not inferenceautomaticpublicfit",
+  "explicit_future_execution_consent": false,
+  "inputs": {
+    "saved_probabilities": {
+      "root": "data",
+      "file": "saved_tuning_probs.npz",
+      "sha256": "REPLACE_WITH_ACCEPTED_OUTPUT_SHA"
+    },
+    "gold": {
+      "root": "data",
+      "file": "tuning_gold.npz",
+      "sha256": "REPLACE_WITH_ACCEPTED_GOLD_SHA"
+    }
+  }
+}

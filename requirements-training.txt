@@ -1,0 +1,7 @@
+# Separate original training environment; torch2.10.0+cu128 and Python3.11.16 already provisioned.
+# Installing these in an inference environment is not requested.
+transformers==4.57.6
+numpy==1.26.4
+pandas==2.3.3
+pyarrow>=14,<22
+datasets==4.7.0

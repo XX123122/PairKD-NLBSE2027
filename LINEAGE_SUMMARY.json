@@ -1,0 +1,22 @@
+{
+  "original_chain": [
+    "genericCodeBERT\u2192rawCodeBERT512fixedsplit2epochselectedwarmstart",
+    "rawwarmstart\u2192Pair+CLS42 structuredpair2additionalepochs,selectedhistoricinternalcheckpoint",
+    "Pair42selectedencoder\u2192freshseed13head/selectedlayers[0,11]",
+    "Pair42TRAIN-onlyrawlogitcache193124rows\u2192PKP2 .5BCE+.5T2BernoulliKL4epochs8048updates",
+    "r6trainingcompletedweights\u2192r8metadata recovery,no retraining\u2192measuredT4originalcheckpoint"
+  ],
+  "selected_teacher": "historical Pair+CLS42 checkpoint chosen by internalvalidation",
+  "raw_warmstart": "CodeBERT512fixedsplit2epochsfullweight selected warmstart",
+  "student": "freshseed13head,Pair42encoder[0,11],fixedepoch4",
+  "train_scope": 193124,
+  "validation_scope": 21462,
+  "split_sha256": "f0e361f9bf741dd8f6c81137e9977d5a28332c0949627f0d407cc067de0eafe9",
+  "teacher_sha256": "447baa87fd51a5e3519c6662f60d2a42e5e88aebcf42ac84441559b418110c0f",
+  "TRAIN_logit_sha256": "5e953e450ba83e0eeaef805dc72b9bad6857e89fa21c9c085dbd1282432dd3c8",
+  "candidate_sha256": "3a902b6b82b48efcd718fabe120ebc1650510c1b4e1efd45625ca3c60cf2b1c4",
+  "r6_to_r8": "metadata recovery,no retraining",
+  "not_later_grouped_lineage": true,
+  "original_failures_preserved_in_author_evidence_not_silently_rewritten": true,
+  "missing_upstream_metadata": []
+}

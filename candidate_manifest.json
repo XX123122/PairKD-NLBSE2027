@@ -1,0 +1,62 @@
+{
+  "status": "frozen_private_offline_package",
+  "candidate_order": [
+    "PKP2-seed13"
+  ],
+  "threshold_calibration_enabled": false,
+  "candidates": {
+    "PKP2-seed13": {
+      "candidate_id": "PKP2-seed13",
+      "package_checkpoint_name": "PKP2-seed13.pt",
+      "checkpoint_sha256": "3a902b6b82b48efcd718fabe120ebc1650510c1b4e1efd45625ca3c60cf2b1c4",
+      "checkpoint_bytes": 215102090,
+      "checkpoint_transfer_verified": true,
+      "encoder_layers": 2,
+      "source_layer_indices": [
+        0,
+        11
+      ],
+      "parameter_count": 53771526,
+      "seed": 13,
+      "epoch": 4,
+      "updates": 8048,
+      "recipe": "original PairKD PKP2",
+      "thresholds": [
+        0.5899999737739563,
+        0.9700000286102295
+      ],
+      "threshold_comparator": ">=",
+      "threshold_order": [
+        "Weakness",
+        "MAT"
+      ],
+      "historical_internal_threshold_diagnostic": [
+        0.699999988079071,
+        0.9800000190734863
+      ],
+      "threshold_source": "accepted r4 public-full-fit selection operating point; no new fitting",
+      "threshold_source_sha256": "a97d75e758d51cfcef654c8ee73466d47d3ee46ff6dda31ad2c8b246cdd3646e",
+      "threshold_source_raw_sha256": "235113673e28b7dd300b05f51da683fa966177533f71f39bf5947b7637205cda",
+      "threshold_source_parquet_sha256": "15b0dcfd2364ddc81fd16d58656436da2e12f9639d12ea0cd0d59a29e2595ed5",
+      "teacher_at_inference": false
+    }
+  },
+  "inference_policy": {
+    "input": "raw Function text through canonical extractor and structured code/comment views",
+    "packing": "<s> code </s> </s> comment </s>",
+    "max_length": 512,
+    "comment_reservation": 96,
+    "global_width": 512,
+    "batch_size": 600,
+    "padding": "right",
+    "attention_backend": "SDPA",
+    "forward_precision": "FP16 autocast",
+    "logits_and_sigmoid_precision": "FP32",
+    "threshold_comparator": ">=",
+    "threshold_calibration_enabled": false,
+    "teacher_at_inference": false,
+    "one_model_resident_at_a_time": true,
+    "oom_policy": "No microbatch fallback; record OOM and stop."
+  },
+  "package_id": "pkp2_portable_release_candidate_notpublished"
+}

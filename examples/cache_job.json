@@ -1,0 +1,41 @@
+{
+  "candidate": "PKP2-seed13",
+  "scope": "fixed training partition only",
+  "artifact_root": "./my_artifacts",
+  "model_root": "./my_models",
+  "data_root": "./my_data",
+  "seed": 13,
+  "max_length": 512,
+  "comment_reservation": 96,
+  "device": "cuda:0",
+  "output_subdir": "NEW_REPRODUCTION_ONLY",
+  "schedule_hashes": [
+    "e0e948723cfff629f27b2b90d4353f321150f1de31c349bd6eaa9b25ce3afe07",
+    "75d18c1f0ff9648ed8fc8e9b5d64efb94db48088a97a255450677d70ebea11f1",
+    "54f96d9ddf5b38f901ec67105bf7dad54dbf5d91303de41f33179a25c69ea04f",
+    "4f7ae213b37e59626873a3e4e17d2c5ec49b2c27ea3c6fcf7cb50b215f78a6f1"
+  ],
+  "explicit_future_execution_consent": false,
+  "inputs": {
+    "split": {
+      "root": "data",
+      "file": "outputs/splits/project_family_joint_stratified_90_10_seed42_v1.npz",
+      "sha256": "f0e361f9bf741dd8f6c81137e9977d5a28332c0949627f0d407cc067de0eafe9"
+    },
+    "teacher_checkpoint": {
+      "root": "model",
+      "file": "core_three_seed_replication/core-replication-pair-cls-seed42/checkpoint-best",
+      "sha256": "447baa87fd51a5e3519c6662f60d2a42e5e88aebcf42ac84441559b418110c0f"
+    },
+    "train_packed": {
+      "root": "data",
+      "file": "train_packed.parquet",
+      "sha256": "REPLACE_WITH_VERIFIED_TRAIN_FEATURE_FILE_SHA"
+    },
+    "encoder_config": {
+      "root": "model",
+      "file": "tokenizer/config.json",
+      "sha256": "bd984c6d2d16a19b1318c872b41bb8d047c649e0361de9a426bc217a04619140"
+    }
+  }
+}

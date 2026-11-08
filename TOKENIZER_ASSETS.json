@@ -1,0 +1,26 @@
+{
+  "config.json": {
+    "sha256": "bd984c6d2d16a19b1318c872b41bb8d047c649e0361de9a426bc217a04619140",
+    "bytes": 716
+  },
+  "merges.txt": {
+    "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+    "bytes": 456318
+  },
+  "special_tokens_map.json": {
+    "sha256": "f23c8e6099631c233c16d9bf8dab198f610826cdd1b358f270f6d55c1863e857",
+    "bytes": 958
+  },
+  "tokenizer.json": {
+    "sha256": "727009a8214ddfa5af1deedf1006d4d06e8e51e54aa5f03566263d4e19bfcdce",
+    "bytes": 3558643
+  },
+  "tokenizer_config.json": {
+    "sha256": "4ea8648e4067230942ac6b32dd61328675bc99ae0a9f4cc665c30a95f0f68712",
+    "bytes": 1246
+  },
+  "vocab.json": {
+    "sha256": "ed19656ea1707df69134c4af35c8ceda2cc9860bf2c3495026153a133670ab5e",
+    "bytes": 798293
+  }
+}
