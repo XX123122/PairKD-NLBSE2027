@@ -80,6 +80,17 @@ class Contracts(unittest.TestCase):
         self.assertAlmostEqual(score(.9084194916924127,33.16337677800004,444468.6284385284),.9087877777639457)
         self.assertAlmostEqual(score(.9084194916924127,38.76940846443176,444468.6284385284),.9076665714266594)
 
+    def test_original_sample_exact_update_budget(self):
+        from src.augmentation_protocol import window_samples,epoch_slots
+        n=193124;batch=12;accum=8
+        batches=(n+batch-1)//batch
+        self.assertEqual((batches+accum-1)//accum,2012)
+        self.assertEqual(window_samples(batches-1,n,batch,accum),68)
+        self.assertEqual(sum(window_samples(i,n,batch,accum) for i in range(0,batches,accum)),n)
+        a=epoch_slots(103,13,0);b=epoch_slots(103,13,1)
+        self.assertEqual(sorted(a),list(range(103)));self.assertNotEqual(a,b)
+        self.assertEqual(a,epoch_slots(103,13,0))
+
     def test_cli_empty_and_dryrun(self):
         with tempfile.TemporaryDirectory() as tmp:
             p=Path(tmp);input_=p/'empty.jsonl';input_.write_text('')

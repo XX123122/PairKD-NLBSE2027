@@ -1,5 +1,5 @@
 {
-  "status": "private_repository_candidate",
+  "status": "public_source_release_v0.2.0",
   "candidate_checkpoint_sha256": "3a902b6b82b48efcd718fabe120ebc1650510c1b4e1efd45625ca3c60cf2b1c4",
   "files": {
     ".gitattributes": {
@@ -11,8 +11,8 @@
       "sha256": "3085f95bf0b39c1647c2f5705b529a28bef99698bf1b7659e34325c76eaaaa53"
     },
     ".gitignore": {
-      "bytes": 237,
-      "sha256": "a738bfbad74a095a2f1aed81d2302d7e8f7b5b87768dfab7a7e9d4343e659c16"
+      "bytes": 272,
+      "sha256": "01285e34d8ff27c0a2f0f7ac4cdaa12d2806c0037e116bf007f5bc5d0722d0d5"
     },
     "assets/tokenizer/config.json": {
       "bytes": 716,
@@ -59,20 +59,20 @@
       "sha256": "4330cebe685f23927706243960ab3eb05aff5361ae5a924d71b58b07ea8b57ca"
     },
     "docs/LICENSING.md": {
-      "bytes": 1327,
-      "sha256": "341dcfc5d4013f26e85798b91211da4bfbfb4f63ad542f484f0b00adbde1e771"
+      "bytes": 1467,
+      "sha256": "17cd1996e3ac9e6398cefef3ccb072a0101c70fbcbcfde7d63b6145db93fe956"
     },
     "docs/MODEL_CARD.md": {
-      "bytes": 1665,
-      "sha256": "cb8a4c3bde1297b60e9085f14a88215a4531546d7be4948f70dbe347776efb39"
+      "bytes": 1803,
+      "sha256": "2b61974d7085fcbbe2c8cdf34fea2bbea69738485e102f9a8f2ca8312af57400"
     },
     "docs/RELEASE_STATUS.md": {
-      "bytes": 2087,
-      "sha256": "801a99fbc7eee231348d27b45abbf6fb144b87c56cb7cf16f8292573db28177a"
+      "bytes": 1431,
+      "sha256": "15be48e3988d120c0dee9fb88f4802c4fea6bbb90fc615daca6337b71addbf12"
     },
     "docs/REPRODUCIBILITY.md": {
-      "bytes": 2918,
-      "sha256": "c292fccf8b7a314e855a9a61e66a44bddd7dc39f240b53452918ff15f66fad24"
+      "bytes": 4517,
+      "sha256": "da3429a8ebdbc36416c70735da9cdc6d24eedb0d291d45d09413c9c3308fed88"
     },
     "docs/RESULTS.md": {
       "bytes": 1744,
@@ -98,41 +98,53 @@
       "bytes": 1442,
       "sha256": "6910cd1e54703324d75bf04e98619accac5e0c799305dbc4794ef02d4e6e7249"
     },
-    "LICENSE.preview.MIT": {
-      "bytes": 1164,
-      "sha256": "526b0ec0b93760668f1784d4b9fd35fd8808b4c647affd4ee025b973d13ca612"
+    "LICENSE": {
+      "bytes": 1095,
+      "sha256": "11d2cae671947fcc9547bb86c71e3a971de8669c8db84927313f40c9a6105122"
+    },
+    "licenses/CodeBERT-MIT.txt": {
+      "bytes": 1095,
+      "sha256": "296604f12546653ed97726dc5fc2f3945d4cca1f07abd2589f531647177b06fc"
     },
     "LINEAGE_SUMMARY.json": {
       "bytes": 1326,
       "sha256": "1183c4a0994a937c9f75f4e9234f40bd69bbe12eff10181d48b55cee680c9fda"
     },
     "MODEL_ASSET_INDEX.json": {
-      "bytes": 796,
-      "sha256": "e554710261754c28fb344503a28f24b3f117fd815910bc8b63cee7e96b96348d"
+      "bytes": 1227,
+      "sha256": "2aef423b7da331b77b47a3e0a5253343e565fd49f02ffa9ae05ea6f259edfb33"
     },
     "notebooks/PairKD_inference.ipynb": {
       "bytes": 2641,
       "sha256": "d33cfb8488bea0261e7ae9ab34ae0abd24e63b47db7dec47a2837ef67bcb6115"
     },
     "NOTICE.md": {
-      "bytes": 1268,
-      "sha256": "93177a8ea466e49b21c04fccfccf5fb64404493a66284feacc74551d294ff3da"
+      "bytes": 1380,
+      "sha256": "75b47fcddf9c31a19f81b5f246bb0552caa1d20318a85b66bda1e094a1e50adb"
     },
     "paper/figures/t4_all_existing_models.pdf": {
       "bytes": 36880,
       "sha256": "ef27cdbb7a1dab2400a0ee5175fdc85d8b8d7ea24a1a379fc32be86417d6b31a"
     },
     "paper/main.tex": {
-      "bytes": 21783,
-      "sha256": "c1bd01213891a4d2c469af00f0334e74d5b96f0527d99eb9adcad8b012f1a1ea"
+      "bytes": 21922,
+      "sha256": "ba5abebe5be819889cb19403131d6a89ddc9ef0558b14515695a0562388cde0b"
     },
     "paper/PairKD.pdf": {
-      "bytes": 229212,
-      "sha256": "38c0e0dc2490f90a431052893d96620401627dbe2b462f22f1d6b5846da30560"
+      "bytes": 229357,
+      "sha256": "6f40d8c9eff434b1ec9940544dda1c81604aa43f13e909d9714fba505b830787"
     },
     "provenance/INPUTS.json": {
       "bytes": 1145,
       "sha256": "1d858f87585af13514a4792d07ac23076d2176d0e40ec2d2f217ae9e6e41969a"
+    },
+    "provenance/LICENSE_DECISION_20261116.json": {
+      "bytes": 259,
+      "sha256": "617750a8413dc0a580d26f1d7c8b587155ede43e5f439948d5f548032768cdaa"
+    },
+    "provenance/PREPROCESSING_CHECKS_20261116.json": {
+      "bytes": 499,
+      "sha256": "f04ce82a0e3796b95ed7505c13e7d0925d95898be32a8ed898f3118d4ed58a8f"
     },
     "provenance/source_manifest_20261007.json": {
       "bytes": 6222,
@@ -143,12 +155,12 @@
       "sha256": "3d21542468eed17b76d1261cdb4835588916fde38488570dda8ee45c98ec08ae"
     },
     "README.md": {
-      "bytes": 6616,
-      "sha256": "9c2d67c8a8c57e3fb4c527c040d1510faeaafea4eedc5a57137c94caee5c5aac"
+      "bytes": 6529,
+      "sha256": "244788cdbeea4dfbfc90a9e39cc60eccb6bb76e540ec105131b6a41df8e7c5f8"
     },
     "README_zh.md": {
-      "bytes": 1083,
-      "sha256": "a0334a42c2bfb64e817575396c5e18d62a6b04c0d68bbd5b84b4615abf253354"
+      "bytes": 1067,
+      "sha256": "00b59106e3bd5656b4a779a4bb8532606d02268dbb547b06118947956d05128e"
     },
     "REFERENCE_PROTOCOL.json": {
       "bytes": 1590,
@@ -182,6 +194,10 @@
       "bytes": 768,
       "sha256": "38070a96890d8fb13779d93ec726fca4d1f83d90eb1fa995a39e76f54f54587f"
     },
+    "scripts/bind_generated_cache.py": {
+      "bytes": 1071,
+      "sha256": "e35c802c565d92f2c4a8947d4a305c06ae223ae284bc3a110a45206629438ec5"
+    },
     "scripts/evaluate_saved.py": {
       "bytes": 850,
       "sha256": "36e4cd035a0634dd085dcd04ef56707347912d9c196d58109706bb5efa2418f7"
@@ -189,6 +205,14 @@
     "scripts/import_model_zip.py": {
       "bytes": 2108,
       "sha256": "1f08c638312e785a4e3bbd1d56f91a982013e48e10d220a3d47a9fadf8c48e02"
+    },
+    "scripts/predict_and_export.py": {
+      "bytes": 2183,
+      "sha256": "1b3ff32b3ea74ef8558ea7ec9cbc0262c235f73420e736e6e0a2fb8bfcb29ccf"
+    },
+    "scripts/prepare_reproduction.py": {
+      "bytes": 5320,
+      "sha256": "0ad9f494e65af9b1a71830b82ab20c427e65e65e7e806e33e33ac1ef529c20cc"
     },
     "scripts/verify_repository.py": {
       "bytes": 298,
@@ -235,8 +259,8 @@
       "sha256": "7b1bc4a31b6ccab7cf922c618994b18ad60d73da5dbb10e5c8009021932e333e"
     },
     "tests/test_contracts.py": {
-      "bytes": 4719,
-      "sha256": "72a95ad9f9c4099a407d6b3c2aacdb924ac70b24a321a369bb64173b7ad76032"
+      "bytes": 5324,
+      "sha256": "c258947ff551ba7452294782c0b72ecb564c5dc136ed03daa2a95153501bb829"
     },
     "TOKENIZER_ASSETS.json": {
       "bytes": 775,

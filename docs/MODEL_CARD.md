@@ -8,4 +8,4 @@ Checkpoint identity, exact frozen policy and original training recipe are in `FR
 
 The original checkpoint is selected; head/ranking/FFN edits and the 50-forward experiment remain research diagnostics. Neither a different seed nor the grouped A13 student is a substitute. Weakness F1 is below the official baseline here; the reported deployment choice reflects the reference accuracy/cost formula. Near-clone overlap, prior selection exposure, lexical extraction errors and rare MAT positives limit conclusions.
 
-No new model was run during repository preparation. Actual past T4 measurements, synthetic CLI tests and new-environment acceptance are distinct evidence. No hidden ranking or official wrapper acceptance is claimed. See README and `docs/RELEASE_STATUS.md`.
+Source and project modifications are MIT licensed. The release provides the fixed teacher/split for optional recipe reproduction. No new model forward was run during repository preparation. Actual past T4 measurements, synthetic CLI tests and new-environment acceptance are distinct evidence. No hidden ranking or official wrapper acceptance is claimed. See README and `docs/RELEASE_STATUS.md`.

@@ -2,7 +2,7 @@
 
 PairKD uses one shared two-layer CodeBERT encoder to predict `[Weakness, MAT]` from a source-code `Function`. MAT is the competition's SATD annotation. This repository candidate accompanies the NLBSE 2027 Code Comment Classification tool paper by **Xin Xu and Jun Yu (corresponding author)**, University of Science and Technology of China.
 
-**Selected model: original PKP2-seed13, epoch4.** The experimental weight edits in the paper are diagnostics and are not deployment models. This is a **private preparation repository** at https://github.com/XX123122/PairKD-NLBSE2027, not a submitted or organizer-certified public release. Access requires repository authorization; it is not yet the open-source submission artifact. See [release status](docs/RELEASE_STATUS.md) for concrete remaining items.
+**Selected model: original PKP2-seed13, epoch4.** The experimental weight edits in the paper are diagnostics and are not deployment models. Source repository: https://github.com/XX123122/PairKD-NLBSE2027. The original model and fixed teacher/split prerequisites are distributed through [Releases](https://github.com/XX123122/PairKD-NLBSE2027/releases). See [release status](docs/RELEASE_STATUS.md) for concrete remaining items.
 
 ## What is included
 
@@ -37,7 +37,7 @@ python cli.py infer --input examples/functions.jsonl --output predictions.jsonl 
 python cli.py infer --input examples/functions.jsonl --output predictions.jsonl --assets-root my_assets --device cuda:0
 ```
 
-The first command after installation imports assets without constructing a model. Authorized collaborators can obtain the exact model ZIP from the [private release](https://github.com/XX123122/PairKD-NLBSE2027/releases/tag/v0.1.0-private). GitHub login and access to this private repository are required. The model is stored as a Release attachment, separately from ordinary Git history. A pre-extracted original checkpoint can instead be passed to `bootstrap_assets.py --checkpoint ... --assets-root my_assets`.
+The first command after installation imports assets without constructing a model. Obtain the exact model ZIP from the [release](https://github.com/XX123122/PairKD-NLBSE2027/releases/tag/v0.2.0). The checkpoint is stored as a Release attachment, separately from ordinary Git history. A pre-extracted original checkpoint can instead be passed to `bootstrap_assets.py --checkpoint ... --assets-root my_assets`.
 
 JSONL rows contain exactly integer `index` and string `Function`. Indices may repeat and order is preserved. Outputs contain `index`, `prob_weakness`, `prob_mat`, `pred_weakness`, `pred_mat`. Extra label/project/filepath fields are rejected; an empty input produces empty output without loading a model. CUDA inference uses fixed batch 600, global width 512, FP16 forward and FP32 sigmoid. OOM propagates; there is no silent microbatch or CPU fallback.
 
@@ -66,11 +66,11 @@ python cli.py tune --job examples/tune_job.json
 python scripts/evaluate_saved.py --predictions predictions.jsonl --gold ordered_labels.jsonl --output metrics.json
 ```
 
-Training/cache/tune commands default to input-validation dry runs. The JSON files are **templates**, not ready-made complete datasets: paths and placeholder hashes must be filled from verified assets. Explicit execution also requires `explicit_future_execution_consent: true` and `--execute`. Tuning writes a separate reproduction policy and never changes the selected thresholds. See [reproduction scope](docs/REPRODUCIBILITY.md) for missing original inputs and the distinction between reproducing a recipe and regenerating the exact measured checkpoint. This preparation does not claim a new full training rerun.
+Training/cache/tune commands default to input-validation dry runs. The examples are low-level templates. The preparation and cache-binding scripts in docs/REPRODUCIBILITY.md generate concrete, hash-bound jobs from the official data and released teacher/split prerequisites. Explicit execution also requires `explicit_future_execution_consent: true` and `--execute`. Tuning writes a separate reproduction policy and never changes the selected thresholds. See [reproduction scope](docs/REPRODUCIBILITY.md) for the teacher-based reproduction route and the distinction between recipe reproduction and bit-identical historical checkpoint regeneration. This preparation does not claim a new full training rerun.
 
 ## Paper, attribution and release
 
-Read [the paper](paper/PairKD.pdf), [model card](docs/MODEL_CARD.md), [third-party notices](NOTICE.md) and [license preparation](docs/LICENSING.md). Final publication still needs actual code/model locations and license resolution; the manuscript accurately retains pending items. The model release is private-access only. No competition form has been submitted. Public accessibility is still required before the formal open-source submission.
+Read [the paper](paper/PairKD.pdf), [model card](docs/MODEL_CARD.md), [third-party notices](NOTICE.md) and [license preparation](docs/LICENSING.md). Code and project modifications use the MIT license, with upstream notices retained. The manuscript links this repository. Full fresh-environment retraining and organizer-interface acceptance remain unverified. No competition form has been submitted.
 
 Official task: https://github.com/nlbse2027/code-comment-classification
 

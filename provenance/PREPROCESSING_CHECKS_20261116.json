@@ -1,0 +1,11 @@
+{
+  "canonical_TRAIN_token_parity": 32,
+  "seed13_head_generated_tensor_hash": "bf6c7feb70ec101c2a989415ad7ade4f0185b5451f15fe2e50851b46dd2b434b",
+  "historical_head_tensor_hash": "cdf8862eb1de993a0d9ad94a9f4e49e4d1bf4fc55edd52d3be33f8ab6a70cacb",
+  "historical_hash_match": false,
+  "model_forwards": 0,
+  "backwards": 0,
+  "CUDA_initialized": false,
+  "head_parameter_tensors": 12,
+  "note": "Generated head is explicit new_recipe_reproduction; no claim of historical bitwise match."
+}

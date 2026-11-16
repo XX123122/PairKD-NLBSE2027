@@ -8,4 +8,4 @@ MADE-WIC dataset: M. Mock et al., ASE 2024, https://doi.org/10.1145/3691620.3695
 
 Copied canonical extractor, model/packing code and portable adapters originate from the author's existing PairKD project. Their historical content hashes are preserved in the provenance inventory. The paper discloses GPT-6 Astra assistance for the exploratory weight edits; those edited checkpoints are excluded from deployment.
 
-See `docs/LICENSING.md` for the unresolved exact asset rights and proposed project license. No raw corpus is redistributed in this repository.
+Project code/modifications are MIT licensed; preserve the upstream Microsoft CodeBERT MIT notice in licenses/CodeBERT-MIT.txt. External dataset/source rights are not granted by this software license. See docs/LICENSING.md. No raw corpus is redistributed.

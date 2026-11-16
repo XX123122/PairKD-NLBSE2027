@@ -5,14 +5,25 @@
     "filename": "PairKD-PKP2-seed13-epoch4-v0.1.0.zip",
     "sha256": "42e2a11e47fce3c1a1dc6c2594840a4e02f5a25fd3f0e332ab73dc5be03a359d",
     "bytes": 198946202,
-    "public_url": null,
-    "private_release_url": "https://github.com/XX123122/PairKD-NLBSE2027/releases/download/v0.1.0-private/PairKD-PKP2-seed13-epoch4-v0.1.0.zip"
+    "public_url": "https://github.com/XX123122/PairKD-NLBSE2027/releases/download/v0.2.0/PairKD-PKP2-seed13-epoch4-v0.1.0.zip"
   },
   "repository_url": "https://github.com/XX123122/PairKD-NLBSE2027",
-  "repository_visibility": "private",
-  "published": false,
+  "repository_visibility": "public",
+  "published": true,
   "externally_hosted": true,
   "teacher_or_experimental_model_in_inference": false,
   "external_assets_not_in_git": true,
-  "publicly_accessible": false
+  "publicly_accessible": true,
+  "training_prerequisites": {
+    "filename": "PairKD-TRAIN-prerequisites-v0.2.0.zip",
+    "bytes": 463272047,
+    "sha256": "083f98d5882d8c8dea03fe9798cdc6d1f77b95881b1c99efd7a610469c4240f5",
+    "public_url": "https://github.com/XX123122/PairKD-NLBSE2027/releases/download/v0.2.0/PairKD-TRAIN-prerequisites-v0.2.0.zip",
+    "contents": [
+      "original frozen Pair42 teacher",
+      "original split",
+      "license/notices"
+    ],
+    "raw_corpus": false
+  }
 }

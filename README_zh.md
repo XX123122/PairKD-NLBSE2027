@@ -1,7 +1,11 @@
-# PairKD 投稿仓库本地候选
+# PairKD 工具赛源码
 
-本目录只包含原 PKP2 工具赛所需的源码、四页具名论文、推理 notebook、结果汇总和复现说明。原提交权重与阈值保持不变，不包含最近四轮实验权重。
+源码与文档：https://github.com/XX123122/PairKD-NLBSE2027
 
-入口是 [英文 README](README.md)。源码可在这个目录初始化为新 Git 仓库；不要上传整个实验工作区。模型 ZIP 约 202 MB，应放在独立 release 或模型托管处，不能直接当普通 Git 文件提交。目录外 `PairKD_RELEASE_ASSETS_20261107` 存放原包与原配 notebook。
+模型及原教师/划分附件：https://github.com/XX123122/PairKD-NLBSE2027/releases/tag/v0.2.0
 
-当前仓库为私人仓库：https://github.com/XX123122/PairKD-NLBSE2027。只有获授权账号能访问，不是公开发行或正式提交。模型以私人仓库 Release 附件提供。待解决：真实仓库/模型 URL、许可最终选定及第三方分发范围、缺失的原训练资产/完整源链、组织者入口的实际兼容性。详细现状见 [RELEASE_STATUS](docs/RELEASE_STATUS.md)。整理和合成测试不会调用真实模型；11-05 的 50 次前向预算已用完，本次新增前向为零。
+请从 [英文 README](README.md) 开始。正式模型为原 PKP2-seed13 epoch4；实验编辑权重不参与提交。代码采用 MIT，保留上游来源声明。请使用独立 Release 模型附件，不将模型 ZIP 推进普通 Git 历史。
+
+新增了按官方 train 和固定划分生成训练输入、生成带哈希记录的新 seed13 头、缓存教师 TRAIN logits、绑定学生训练 job 的复现路径。原教师权重及划分随附件提供，原始数据从官方获取。此路径不保证历史 checkpoint 逐位一致；此前原教师的上游训练链不在该重跑路径内。本轮没有新训练或前向。
+
+完整新环境重训和组织者接口尚未实际复测，不将它们写成已通过。详见 [复现范围](docs/REPRODUCIBILITY.md) 和 [发布状态](docs/RELEASE_STATUS.md)。仓库发布不等于比赛表单已提交。
